@@ -192,7 +192,7 @@
     }
 
     disqusjs = new DisqusJS({
-      shortname: 'xddkkk',
+      shortname: 'krixdina',
       title: 'Hello World',
       apikey: '4vhnLFpbdHVKMLQzop3PRCRyrcqYSaKcqWzj3s5bPTimvXw0rBx8LHSlSUuBYhlR',
       ...dqOption,
@@ -221,7 +221,7 @@
       if (!eleGroup) return
       const cleanedLinks = eleGroup.href.replace(/#post-comment$/, '')
 
-      const res = await fetch(`https://disqus.com/api/3.0/threads/set.json?forum=xddkkk&api_key=4vhnLFpbdHVKMLQzop3PRCRyrcqYSaKcqWzj3s5bPTimvXw0rBx8LHSlSUuBYhlR&thread:link=${cleanedLinks}`,{
+      const res = await fetch(`https://disqus.com/api/3.0/threads/set.json?forum=krixdina&api_key=4vhnLFpbdHVKMLQzop3PRCRyrcqYSaKcqWzj3s5bPTimvXw0rBx8LHSlSUuBYhlR&thread:link=${cleanedLinks}`,{
         method: 'GET'
       })
       const result = await res.json()
